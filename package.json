@@ -1,0 +1,15 @@
+{
+  "name": "laboria-dash",
+  "version": "0.1.0",
+  "private": true,
+  "description": "LaborIA Dashboard Técnica / Backoffice Central — workspace 4B",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/4Bprogramming/LaborIA_Dash.git"
+  },
+  "scripts": {
+    "docs": "echo Ver docs/Dash-Tecnica-0000-Infraestructura-Backoffice-Central.md"
+  },
+  "keywords": ["laboria", "backoffice", "saas", "payroll"],
+  "author": "4B Programming"
+}

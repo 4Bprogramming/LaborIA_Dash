@@ -12,11 +12,21 @@ Repositorio de la **Dashboard Técnica** de LaborIA: soporte global, auditoría,
 
 ## Documentación
 
-Ver [`../docs/Dash-Tecnica-0000-Infraestructura-Backoffice-Central.md`](../docs/Dash-Tecnica-0000-Infraestructura-Backoffice-Central.md) en el monorepo local.
+| Doc | Contenido |
+|---|---|
+| [Dash-Tecnica-0000](../docs/Dash-Tecnica-0000-Infraestructura-Backoffice-Central.md) | Cimientos backoffice |
+| [Dash-Tecnica-0001](../docs/Dash-Tecnica-0001-Facturacion-Monitor-Convenios.md) | Facturación SaaS + monitor CCT |
 
-## Estado actual (v0.1.0)
+## Estado actual (v0.2.0)
 
-Cimientos implementados:
+Implementado:
+
+- Modelos: `FacturaEstudio`, `TenantEstadoComercial`, auditoría crawler en `Convenio`
+- Endpoints: facturación, webhook pagos, convenios-maestros + historial
+- Cron billing (vencimientos) y actualización `estadoCrawler` en crawler paritario
+- UI: `/backoffice/facturacion` y monitor en `/backoffice/convenios`
+
+Cimientos v0.1.0:
 
 - Modelos Prisma: `AdminRole`, `UsuarioAdministrador`, `LogAuditoriaTecnica`
 - Endpoints admin protegidos con `AdminAuthGuard`
